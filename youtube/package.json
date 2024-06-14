@@ -1,0 +1,22 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "youtube test",
+  "main": "cypress.config.js",
+  "scripts": {
+    "pretest": "echo Im PreTest",
+    "posttest": "echo Im PostTest",
+    "test": "echo Im the test",
+    "hello": "echo hello world",
+    "cy-test": "cypress run"
+  },
+  "author": "Asiel",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.10.0",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.3"
+  }
+}

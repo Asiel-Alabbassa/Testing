@@ -1,0 +1,10 @@
+{
+    "reporter" : "mochawsome",
+    "reportOptions":{
+        "reportDirectory" :"cypress/report/mochawsome",
+        "overwrite": true,
+        "html":true,
+        "json":true,
+        "timestamp":"mmddyyyy_HHMMss"
+    }
+}
